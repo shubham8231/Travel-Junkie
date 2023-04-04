@@ -1,9 +1,12 @@
+import BlogArea from '../BlogArea/BlogArea';
+import Hero from '../Hero/Hero';
 import mainStyles from './Main.module.scss'
 
 function Main(){
     return (
         <>
-            Main
+            <Hero />
+            <BlogArea />
         </>
     )
 }

@@ -1,6 +1,71 @@
 .outer_navbar{
-    position: relative;
+    position: fixed;
     display: flex;
     width: 100%;
-    background-color: red;
+    z-index: 100;
+    background-color: black;
+    justify-content: space-evenly;
+
+    .inner_left_navbar{
+        position: relative;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        
+        .logoImg{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 10%;
+            
+
+            .logo1{
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+
+    .inner_right_navbar{
+        position: relative;
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        padding-right: 10%;
+
+        .upper_right{
+            padding-top: 1%;
+            padding-left: 40%;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+
+            .searchbar{
+                padding: 4px 10px;
+                border: 0;
+                font-size: 16px;
+                position: relative;
+                width: 60%;
+                border-radius: 5px;
+            }
+        }
+
+        .bottom_right{
+            padding-top: 2%;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+    
+            .navItem{
+                text-decoration: none;
+                color: white;
+                font-weight: 500;
+                font-size: 1.2rem;
+                padding-bottom: 2%;
+                
+            }
+            
+        }
+    }
 }

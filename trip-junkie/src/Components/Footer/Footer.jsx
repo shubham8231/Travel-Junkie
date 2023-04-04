@@ -2,9 +2,10 @@ import footerStyles from './Footer.module.scss'
 
 function Footer(){
     return (
-        <>
-            Footer
-        </>
+        <div className={footerStyles.footersection}>
+        Footer
+            
+        </div>
     )
 }
 
