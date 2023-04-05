@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.blogCardOuter {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 1rem 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #aaa;
+    border: 1px solid #bbb;
+
+    .blogCardLeft {
+        position: relative;
+        display: flex;
+        padding: 0.5rem 0.8rem;
+        width: 70%;
+        flex-direction: column;
+
+        .blogHeading {
+            font-size: 2rem;
+        }
+
+        .blogDes {
+            position: relative;
+            margin: 0.3rem 0;
+            font-family: 'Poppins', sans-serif;;
+            font-size: 1rem
+        }
+    }
+
+    .blogCardRight {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+
+        .blogImg{
+            position: relative;
+            display: flex;
+            width: 80%;
+
+            .blogPic{
+                position: relative;
+                width: 100%;
+            }
+        }
+    }
+}

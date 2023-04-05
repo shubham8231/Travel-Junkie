@@ -1,0 +1,16 @@
+.page2{
+    .maincontent{
+        display: flex;
+        justify-content: center;
+        font-size: 400%;
+        padding-top: 3rem;
+    }
+
+    .blogCards{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
